@@ -1,6 +1,6 @@
 
 const xhr = new XMLHttpRequest();
-const url = 'http://localhost:5001/candidate/apply'
+const url = 'http://jobappapi-env.eba-pzymhgwf.ap-south-1.elasticbeanstalk.com/candidate/apply'
 
 xhr.open("GET", url);
 

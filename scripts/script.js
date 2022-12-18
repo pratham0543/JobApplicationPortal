@@ -13,7 +13,7 @@ document.querySelector('#compLogin').addEventListener('click',(e)=>
         password:password
     }
     const xhr=new XMLHttpRequest();
-    const url='http://localhost:5001/company/login'
+    const url='http://jobappapi-env.eba-pzymhgwf.ap-south-1.elasticbeanstalk.com/company/login'
 
     xhr.open('POST',url);
     xhr.setRequestHeader('Access-Control-Allow-Origin', '*')
@@ -58,7 +58,7 @@ document.querySelector('#signup-btn').addEventListener('click',(e)=>
         password:password
     }
     const xhr=new XMLHttpRequest();
-    const url='http://localhost:5001/company/signup'
+    const url='http://jobappapi-env.eba-pzymhgwf.ap-south-1.elasticbeanstalk.com/company/signup'
     
     xhr.open('POST',url)
     xhr.setRequestHeader('Content-Type', 'application/json')

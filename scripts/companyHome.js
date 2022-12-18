@@ -19,7 +19,7 @@ document.querySelector('#postBtn').addEventListener('click',(e)=>
     }
 
     const xhr=new XMLHttpRequest();
-    const url='http://localhost:5001/company/postjob'
+    const url='http://jobappapi-env.eba-pzymhgwf.ap-south-1.elasticbeanstalk.com/company/postjob'
 
     xhr.open('POST',url);
     xhr.setRequestHeader('Access-Control-Allow-Origin', '*')

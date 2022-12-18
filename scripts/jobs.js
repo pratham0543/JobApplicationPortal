@@ -1,5 +1,5 @@
 const xhr = new XMLHttpRequest();
-const url = 'http://localhost:5001/company/postjob'
+const url = 'http://jobappapi-env.eba-pzymhgwf.ap-south-1.elasticbeanstalk.com/company/postjob'
 
 xhr.open("GET", url);
 
@@ -60,7 +60,7 @@ document.querySelector('#apply').addEventListener('click', (e) => {
             comp: company
         }
         const xhr = new XMLHttpRequest();
-        const url = 'http://localhost:5001/candidate/apply'
+        const url = 'http://jobappapi-env.eba-pzymhgwf.ap-south-1.elasticbeanstalk.com/candidate/apply'
 
         xhr.open('POST', url)
         xhr.setRequestHeader('Content-Type', 'application/json')
